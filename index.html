@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>rclone - Official Home & App Information</title>
+  <title>rclone Personal Drive Sync - App Information</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
     header { border-bottom: 1px solid #eaeaea; padding-bottom: 20px; margin-bottom: 30px; }
@@ -24,60 +24,58 @@
 
   <header>
     <span class="badge">Official Application Page</span>
-    <h1>rclone</h1>
-    <p class="tagline">rclone for google drive personal use </p>
+    <h1>rclone Personal Drive Sync</h1>
+    <p class="tagline">Personal storage synchronization tool linking local disks to Google Drive.</p>
   </header>
 
   <main>
     <section id="about">
-      <h2>About rclone</h2>
-      <p>rclone is designed to link google drive to ssd. It enables users to view, analyze, organize, export data through an intuitive streamlined interface.</p>
+      <h2>About the Application</h2>
+      <p>rclone Personal Drive Sync connects a local Linux storage system directly with Google Drive. It allows authorized users to manage, synchronize, mirror, and back up personal files securely across local SSDs and cloud storage.</p>
     </section>
 
     <section id="features">
       <h2>Key Features</h2>
       <ul>
-        <li><strong>Sync:</strong> Syncs files between desktop and google drive.</li>
-        <li><strong>Local:</strong> Local Caching.</li>
-        <li><strong>Remote:</strong> Remote access.</li>
+        <li><strong>Bidirectional Synchronization:</strong> Synchronizes personal directory structures between local storage and Google Drive.</li>
+        <li><strong>Local Caching:</strong> Maintains efficient local cache layers for fast read and write operations.</li>
+        <li><strong>Encrypted Transfers:</strong> Handles file streams via standard TLS encryption directly between client and cloud endpoints.</li>
       </ul>
     </section>
 
     <section id="google-integration">
-      <h2>Google Integration & Data Access Transparency</h2>
-      <p>To provide these features, rclone requests user authorization to connect with your Google account via OAuth 2.0. We request access strictly to deliver user-facing functionality:</p>
+      <h2>Google Integration & Scopes Transparency</h2>
+      <p>To perform storage management tasks, this application requests user authorization via OAuth 2.0. We request access strictly to deliver storage synchronization functionality:</p>
       
       <ul>
-        <!-- Customize these scopes to match your OAuth Consent Screen -->
         <li>
-          <strong>Google Calendar (https://www.googleapis.com/auth/calendar.events):</strong>
-          Requested strictly to read existing appointments and schedule new task deadlines directly to your primary calendar.
+          <strong>Google Drive API (<code>https://www.googleapis.com/auth/drive</code>):</strong>
+          Requested strictly to read, write, upload, and update files and folders selected by the user for synchronization with their local computer.
         </li>
         <li>
-          <strong>Basic Profile (openid, email, profile):</strong>
-          Requested strictly to identify your account and personalize your user dashboard.
+          <strong>Basic Profile (<code>openid</code>, <code>email</code>):</strong>
+          Requested to identify the active Google account and verify authorization status.
         </li>
       </ul>
 
       <div class="callout">
-        <strong>Our Commitment to Data Safety:</strong>
-        <p>rclone only accesses data with your explicit permission. We do not sell your personal data to third parties, use your data for advertising, or use your data to train non-personalized generalized artificial intelligence or machine learning models.</p>
+        <strong>Data Safety & Protection:</strong>
+        <p>This application operates solely as a synchronization client. We do not sell user data, share files with third parties, display advertisements, or use Google user data to train generalized AI or machine learning models.</p>
       </div>
     </section>
 
     <section id="support">
       <h2>Contact & Support</h2>
-      <p>If you have questions, feedback, or need account assistance, contact us at:</p>
+      <p>If you have questions, feedback, or require technical support, reach out to:</p>
+      <p>Developer: <strong>rodritimebaby</strong></p>
       <p>Email: <a href="mailto:rodritimebaby@gmail.com">rodritimebaby@gmail.com</a></p>
-      <p>Developer/Organization: <strong>rodritimebaby</strong></p>
     </section>
   </main>
 
   <footer>
-    <div>&copy; 2026 rclone. All rights reserved.</div>
+    <div>&copy; 2026 rclone Personal Drive Sync. All rights reserved.</div>
     <div>
-      <a href="privacy.html">Privacy Policy</a> | 
-      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
     </div>
   </footer>
 
